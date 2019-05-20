@@ -1,0 +1,103 @@
+.header-color {
+    background: #4776E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.home-page {
+    width: 100%;
+    margin: 20px auto;
+    padding: 50px;
+    text-align: center;  
+}
+.home-page h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4776E6;
+    padding: 10px;
+}
+.home-page hr {
+    border-top: 5px dotted #4776E6;
+
+}
+.social-links {
+    width: 50%;
+    margin: 20px auto;
+}
+ ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between
+}
+.skills p {
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+a {
+    border: none;
+    outline: none;
+    
+}
+a:hover {
+    border: none;
+    text-decoration: none;
+    
+}
+.content {
+    margin: 30px auto;
+    padding: 50px 0;
+    display: flex;
+    width: 100%;
+}
+.mdl-layout__drawer.is-visible {
+ color: #0056b3
+
+    
+}
+.about h5 {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    margin-bottom: 20px;
+
+}
+.about h2 {
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+    line-height: 54px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.about p {
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    max-width: 680px;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0px auto 45px;
+}
+footer {
+    background: #000410;
+    padding: 30px
+}
+footer h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+footer p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    margin-bottom: 30px;
+}
